@@ -227,9 +227,9 @@ public class Main {
 //                User u=User.builder()
 //                        .setName("ssss")
 //                        .setphoneNumber(75838);
-                secondSmallestElement s=new secondSmallestElement();
-                int[] arr={1,3,4,2,1,2,2,2,2};
-                s.SecondSmall(arr);
+                GreaterThan s=new GreaterThan();
+                int[] arr={1,2,3,4,5,6};
+                System.out.println(s.greaterthan(arr));
             }
         }
    }

@@ -5,8 +5,9 @@ public class GreaterThan {
         int count = 0;
         for (int i = 0; i < arr.length; i++) {
             sum += arr[i];
-            average = sum / (arr.length - 1);
         }
+        average = sum / (arr.length);
+        System.out.println(arr.length);
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] > average) {
                 count++;
